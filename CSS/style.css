@@ -143,8 +143,10 @@ li{
 }
 
 .grid_item{
-	background-color: var(--bc-color);
+
+	text-align: center;
 }
+
 
 .resume button{
 	background-color:var(--bt-color);
