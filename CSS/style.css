@@ -1,3 +1,4 @@
+
 /* Colors
 Text color: #2935c4 (blue)
 Header: #008b00 (green)
@@ -91,8 +92,14 @@ h1,h2,h3,h4,h5,h6{
 
 .table{
 	text-align: var(--center-text-align);;
-	margin: 15px auto;
+	margin: auto;
+	border-collapse: separate;
+	border-spacing: 20px 0;
+	padding: 25px;
 }
+
+
+
 
 p{
 	margin: 10px 20px
@@ -143,10 +150,8 @@ li{
 }
 
 .grid_item{
-
-	text-align: center;
+	background-color: var(--bc-color);
 }
-
 
 .resume button{
 	background-color:var(--bt-color);
